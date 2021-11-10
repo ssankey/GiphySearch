@@ -31,7 +31,7 @@ body {
 
 .container-image {
 	width: 30%;
-	display: block;
+	display: flex;
 	float: left;
 	margin-right:3%;
 	align-items:flex-start;
