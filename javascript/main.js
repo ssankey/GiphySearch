@@ -14,7 +14,7 @@ document.querySelector('.js-userinput').addEventListener('keyup',function(e){
 
 function showMeGifs(input){
     input = input.replaceAll(" ", "+");   
-    var url = "http://api.giphy.com/v1/gifs/search?q="+input+"&api_key=dc6zaTOxFJmzC";
+    var url = "http://api.giphy.com/v1/gifs/search?q="+input+"&api_key=gYwmQRsashiC6zpInlCkuTDdza6rjhfH";
     var GiphyAjaxCall = new XMLHttpRequest();
     GiphyAjaxCall.open('GET',url)
     GiphyAjaxCall.send();
